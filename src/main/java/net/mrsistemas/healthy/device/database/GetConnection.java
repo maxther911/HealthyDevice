@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.database;
+package net.mrsistemas.healthy.device.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import net.mrsistemas.healthy.utils.Utils;
+import net.mrsistemas.healthy.device.utils.Utils;
 
 public class GetConnection {
 	Connection connection = null;

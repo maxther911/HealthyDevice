@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.hardware;
+package net.mrsistemas.healthy.device.hardware;
 
 import com.pi4j.component.temperature.TemperatureSensor;
 import com.pi4j.io.w1.W1Master;

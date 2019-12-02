@@ -1,9 +1,9 @@
-package net.mrsistemas.healthy.database;
+package net.mrsistemas.healthy.device.database;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import net.mrsistemas.play.model.Usuario;
+import net.mrsistemas.healthy.device.model.Usuario;
 
 public class DataControllers {
 	GetConnection connection = null;

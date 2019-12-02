@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.database;
+package net.mrsistemas.healthy.device.database;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

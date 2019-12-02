@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.thread;
+package net.mrsistemas.healthy.device.thread;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,21 +6,18 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.Map;
 
-import org.json.JSONException;
+import net.mrsistemas.healthy.device.exception.AuthException;
 import org.json.JSONObject;
 
-import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import net.mrsistemas.healthy.database.DataControllers;
-import net.mrsistemas.healthy.exception.AuthException;
-import net.mrsistemas.play.model.Usuario;
-import net.mrsistemas.healthy.utils.Utils;
+import net.mrsistemas.healthy.device.database.DataControllers;
+import net.mrsistemas.healthy.device.model.Usuario;
+import net.mrsistemas.healthy.device.utils.Utils;
 
 public class ConsumirServicio {
 	private final int TIMEOUT = Integer.valueOf(Utils.getKey("ws.connection.timeout"));

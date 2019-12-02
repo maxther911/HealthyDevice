@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.mqtt;
+package net.mrsistemas.healthy.device.mqtt;
 
 import java.sql.Timestamp;
 

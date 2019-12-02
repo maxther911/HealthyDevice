@@ -1,4 +1,4 @@
-package net.mrsistemas.play.model;
+package net.mrsistemas.healthy.device.model;
 
 public class Usuario {
 	private String auth;

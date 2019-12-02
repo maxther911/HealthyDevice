@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mrsistemas.iot</groupId>
-    <artifactId>iothing_pi_healthy</artifactId>
+    <groupId>net.mrsistemas.healthy.device</groupId>
+    <artifactId>healthyDevice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -145,7 +145,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>net.mrsistemas.healthy.facade.Main</mainClass>
+                            <mainClass>net.mrsistemas.healthy.device.facade.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

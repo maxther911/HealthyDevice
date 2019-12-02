@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.restapi;
+package net.mrsistemas.healthy.device.restapi;
 
 import java.io.InputStream;
 import com.mashape.unirest.http.*;

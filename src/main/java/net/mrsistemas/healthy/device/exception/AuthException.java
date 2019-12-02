@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.exception;
+package net.mrsistemas.healthy.device.exception;
 
 public class AuthException extends Exception {
 

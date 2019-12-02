@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.utils;
+package net.mrsistemas.healthy.device.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

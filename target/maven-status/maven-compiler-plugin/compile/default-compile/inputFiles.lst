@@ -1,0 +1,13 @@
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/database/OracleJDBCExample.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/model/Usuario.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/facade/Main.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/restapi/RESTCall.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/thread/ConsumirServicio.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/database/DataControllers.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/mqtt/SendDataUsingMQTT.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/sensor/Execute.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/exception/AuthException.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/utils/Utils.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/hardware/WaterTemperatureSensor.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/database/GetConnection.java
+/home/maxther911/IdeaProjects/healthyParent/HealthyDevice/src/main/java/net/mrsistemas/healthy/controllers/DeviceControllers.java

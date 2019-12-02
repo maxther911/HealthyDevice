@@ -1,10 +1,10 @@
-package net.mrsistemas.healthy.sensor;
+package net.mrsistemas.healthy.device.sensor;
 
+import net.mrsistemas.healthy.device.hardware.WaterTemperatureSensor;
 import org.eclipse.paho.client.mqttv3.MqttException;
 
-import net.mrsistemas.healthy.hardware.WaterTemperatureSensor;
-import net.mrsistemas.healthy.mqtt.SendDataUsingMQTT;
-import net.mrsistemas.healthy.restapi.RESTCall;
+import net.mrsistemas.healthy.device.mqtt.SendDataUsingMQTT;
+import net.mrsistemas.healthy.device.restapi.RESTCall;
 
 public class Execute {
 	public static void lanzarTemperatura(String in) throws MqttException, InterruptedException {

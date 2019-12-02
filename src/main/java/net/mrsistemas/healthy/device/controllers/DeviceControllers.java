@@ -1,4 +1,4 @@
-package net.mrsistemas.healthy.controllers;
+package net.mrsistemas.healthy.device.controllers;
 
 import java.util.Scanner;
 

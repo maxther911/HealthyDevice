@@ -1,12 +1,11 @@
-package net.mrsistemas.healthy.facade;
+package net.mrsistemas.healthy.device.facade;
 
 import java.util.Scanner;
 
+import net.mrsistemas.healthy.device.sensor.Execute;
 import org.eclipse.paho.client.mqttv3.MqttException;
 
 import com.diozero.devices.LED;
-
-import net.mrsistemas.healthy.sensor.Execute;
 
 public class Main {
 

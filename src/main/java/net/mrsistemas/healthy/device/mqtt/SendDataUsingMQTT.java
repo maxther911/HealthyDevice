@@ -1,15 +1,9 @@
 package net.mrsistemas.healthy.device.mqtt;
 
-import java.sql.Timestamp;
-
-import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
-import org.eclipse.paho.client.mqttv3.MqttCallback;
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
-import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
-import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
+import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MqttDefaultFilePersistence;
+
+import java.sql.Timestamp;
 
 public class SendDataUsingMQTT {
 	private MqttClient client;
@@ -92,7 +86,7 @@ public class SendDataUsingMQTT {
 
 	}
 
-	public void publish(String data) throws MqttPersistenceException, MqttException {
+	public void publish(String data) throws MqttException {
 		String time = new Timestamp(System.currentTimeMillis()).toString();
 		System.out.println("Publishing at: " + time + " to topic \"" + channel + "\" qos " + qos);
 

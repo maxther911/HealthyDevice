@@ -1,5 +1,14 @@
 package net.mrsistemas.healthy.device.thread;
 
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import net.mrsistemas.healthy.device.database.DataControllers;
+import net.mrsistemas.healthy.device.exception.AuthException;
+import net.mrsistemas.healthy.device.model.Usuario;
+import net.mrsistemas.healthy.device.utils.Utils;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -7,17 +16,6 @@ import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.util.Map;
-
-import net.mrsistemas.healthy.device.exception.AuthException;
-import org.json.JSONObject;
-
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-
-import net.mrsistemas.healthy.device.database.DataControllers;
-import net.mrsistemas.healthy.device.model.Usuario;
-import net.mrsistemas.healthy.device.utils.Utils;
 
 public class ConsumirServicio {
 	private final int TIMEOUT = Integer.valueOf(Utils.getKey("ws.connection.timeout"));
@@ -54,11 +52,10 @@ public class ConsumirServicio {
 
 	private JsonObject getDataService(String endpoint, JSONObject parameters) throws AuthException {
 		Usuario usuario = null;
-		;
 		JsonObject object = null;
 		HttpURLConnection conn;
 		try {
-			URL url = new URL(endpoint.toString());
+			URL url = new URL(endpoint);
 			conn = (HttpURLConnection) url.openConnection();
 			conn.setConnectTimeout(TIMEOUT);
 			conn.setRequestMethod("POST");
@@ -109,7 +106,7 @@ public class ConsumirServicio {
 		JsonObject object = null;
 		HttpURLConnection conn;
 		try {
-			URL url = new URL(endpoint.toString());
+			URL url = new URL(endpoint);
 			conn = (HttpURLConnection) url.openConnection();
 			conn.setConnectTimeout(TIMEOUT);
 			conn.setRequestMethod("POST");
